@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechLearn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .marquesina {
+            background: #e6f7ff;
+            padding: 15px;
+            overflow: hidden;
+            border-radius: 8px;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .texto-marquesina {
+            display: inline-block;
+            animation: mover 10s linear infinite;
+            font-size: 18px;
+            color: #0066cc;
+        }
+        @keyframes mover {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquesina">
+        <div class="texto-marquesina">🌟 ¡Bienvenido/a a mi sitio web! Aprende programación fácilmente.</div>
+    </div>
+    <h1>Mis Tutoriales</h1>
+    <p>1. Cómo crear una página web con HTML.</p>
+    <p>2. Aprende CSS desde cero.</p>
+</body>
+</html
